@@ -1,0 +1,1 @@
+select a, b, c, d, e as xx, f, g, h as ccc, qq from tab
