@@ -1,4 +1,7 @@
 /out
 /.idea
-/gradle
 /.gradle
+/.settings
+/bin
+.classpath
+.project
