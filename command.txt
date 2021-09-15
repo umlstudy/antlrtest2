@@ -1,0 +1,3 @@
+./gradlew  -g ./ghome cleanEclipse eclipse
+
+이 때 mavenLocal() 하면 안됨

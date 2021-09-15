@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+    id 'eclipse'
+}
+
+group 'asia.sejong'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+//	mavenLocal()
+    //mavenLocal { url uri('./m2repo') }
+//    mavenLocal ( uri('./m2repo') )
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // https://mvnrepository.com/artifact/org.antlr/antlr4-runtime
+    compile group: 'org.antlr', name: 'antlr4-runtime', version: '4.7.1'
+    // https://mvnrepository.com/artifact/org.antlr/antlr4
+    compile group: 'org.antlr', name: 'antlr4', version: '4.7.1'
+}
