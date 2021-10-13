@@ -1,3 +1,9 @@
 ./gradlew  -g ./ghome cleanEclipse eclipse
 
 이 때 mavenLocal() 하면 안됨
+
+
+./gradlew -DMAVEN_HOME=/d/gitrepos/antlrtest2/m2repo -DM2_HOME=/d/gitrepos/antlrtest2/m2repo -Dmaven.repo.local=/d/gitrepos/antlrtest2/m2repo -g ./ghome cleanEclipse eclipse
+
+./gradlew -DMAVEN_HOME="d:\gitrepos\antlrtest2\m2repo" -DM2_HOME="d:\gitrepos\antlrtest2\m2repo" -Dmaven.repo.local="d:\gitrepos\antlrtest2\m2repo" -g ./ghome cleanEclipse eclipse
+
